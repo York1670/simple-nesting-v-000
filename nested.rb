@@ -76,7 +76,7 @@ def adding_matz
 	programmer_hash[:yukihiro_matsumoto][:languages] = []
 	programmer_hash[:yukihiro_matsumoto][:known_for] = "Ruby"
 	programmer_hash[:yukihiro_matsumoto][:known_for] = ["LISP", "C"]
-	programmer_hash
+	return programmer_hash
 end
 
 def changing_alan
